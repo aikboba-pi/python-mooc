@@ -1,0 +1,19 @@
+[project]
+name = "part13-01-four-robots"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vdugintsov", email = "aikboba.pi@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[project.scripts]
+part13-01-four-robots = "part13_01_four_robots:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
